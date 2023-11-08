@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cognitive Insight</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="CareMed demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="static/styles/bootstrap4/bootstrap.min.css">
+<link href="static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="static/plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="static/styles/cog.css">
+<link rel="stylesheet" type="text/css" href="static/styles/cog_responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header trans_200">
+		
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+							<div class="emergencies  d-flex flex-row align-items-center justify-content-start ml-auto">For Emergencies: +56 273 45678 235</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<nav class="main_nav ml-auto">
+								<ul>
+									<li><a href="{{ url_for('index') }}">Home</a></li>
+									<li><a href="{{ url_for('about') }}">About us</a></li>
+									<li><a href="{{ url_for('cog') }}">Diagnosis</a></li>
+									<li><a href="{{ url_for('contact') }}">Contact</a></li>
+								</ul>
+							</nav>
+							<div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Logo -->
+		<div class="logo_container_outer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="logo_container">
+							<a href="#">
+								<div class="logo_content d-flex flex-column align-items-start justify-content-center">
+									<div class="logo_line"></div>
+									<div class="logo d-flex flex-row align-items-center justify-content-center">
+										<div class="logo_text">Mind<span>Sync</span></div>
+										<div class="logo_box">+</div>
+									</div>
+									<div class="logo_sub">Health Care Center</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu_container menu_mm">
+
+		<!-- Menu Close Button -->
+		<div class="menu_close_container">
+			<div class="menu_close"></div>
+		</div>
+
+		<!-- Menu Items -->
+		<div class="menu_inner menu_mm">
+			<div class="menu menu_mm">
+				<ul class="menu_list menu_mm">
+					<li class="menu_item menu_mm"><a href="{{ url_for('index') }}">Home</a></li>
+					<li class="menu_item menu_mm"><a href="{{ url_for('about') }}">About us</a></li>
+					<li class="menu_item menu_mm"><a href="{{ url_for('cog') }}">Diagnosis</a></li>
+					<li class="menu_item menu_mm"><a href="{{ url_for('contact') }}">Contact</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="static/images/about.jpg" data-speed="0.8"></div>
+		<div class="home_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="home_content">
+							<div class="home_title">Cognitive <span>Insight</span></div>
+							<div class="breadcrumbs">
+								<ul>
+									<li><a href="{{ url_for('index') }}">Home</a></li>
+									<li>Cognitive Insight</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+
+	<div class="about">
+		<div class="container">
+			<div class="row">
+
+				<!-- About Content -->
+				<div class="col-lg-8">
+					<div class="section_title"></div>
+					<div class="about_text">	
+						<h2 style="color: #000000;">How does machine learning detect Alzheimer's disease?</h2>
+						<p>Machine learning algorithms can detect subtle patterns in brain scans that may indicate the early stages of Alzheimer's disease. By analyzing large amounts of data, machine learning can identify unique patterns that may be impossible for a human to detect. These algorithms can also track changes in the brain over time, which can help with early diagnosis and personalized treatment plans.
+						<h2 style="color: #000000;">What are the benefits of detecting Alzheimer's disease early?</h2>
+						<p>Early detection allows for interventions that can slow down or even stop the progression of the disease. This can significantly increase the quality of life for those affected by the disease and their caregivers. Early detection can also help researchers design better clinical trials for Alzheimer's disease treatments.</p>
+						<h2 style="color: #000000;">Why choose our machine learning algorithms?</h2>
+						<p>Our machine learning algorithms are designed specifically for the detection of Alzheimer's disease. Our team of experts has years of experience developing and validating these algorithms, ensuring that they are accurate and reliable. By choosing our machine learning algorithms, you can be confident that you are using the latest technology for the early detection of Alzheimer's disease.</p>
+						<p>Contact us to learn more about our machine learning algorithms and how they can help detect Alzheimer's disease.</p>
+					</div>					
+				</div>
+
+				<!-- Boxes -->
+				<div class="col-lg-4 boxes_col">
+
+					<!-- Box -->
+					<div class="box working_hours">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="static/images/alarm-clock.svg" alt=""></div></div>
+						<div class="box_title">Working Hours</div>
+						<div class="working_hours_list">
+							<ul>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Monday – Friday</div>
+									<div class="ml-auto">8.00 – 19.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Saturday</div>
+									<div class="ml-auto">9.30 – 17.00</div>
+								</li>
+								<li class="d-flex flex-row align-items-center justify-content-start">
+									<div>Sunday</div>
+									<div class="ml-auto">9.30 – 15.00</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Box -->
+					<div class="box box_appointments">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width: 29px; height:29px;"><img src="static/images/phone-call.svg" alt=""></div></div>
+						<div class="box_title">Customer Support</div>
+						<div class="box_text">For any inquiries or assistance, please reach out to our dedicated customer support team at <a href="mailto:support@mindsyncplus.com">support@mindsyncplus.com</a> or call us at <strong>+45 677 8993000 223</strong> during working hours.</div>
+					</div>
+
+					<!-- Box -->
+					<div class="box box_emergency">
+						<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width: 37px; height:37px; margin-left:-4px;"><img src="static/images/bell.svg" alt=""></div></div>
+						<div class="box_title">Emergency Cases</div>
+						<div class="box_phone">+56 273 45678 235</div>
+						<div class="box_emergency_text">In case of urgent matters or emergencies, please contact our 24/7 emergency line given above for immediate assistance.</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row py-4">
+        <div class="col-lg-6 mx-auto">
+ 
+            <!-- Upload image input-->
+            <form action="{{ url_for('predict_image_file') }}" enctype="multipart/form-data" method="POST">
+                <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                    <input class="form-control border-0" id="upload" name="file" type="file" accept="image/*">
+                    <label class="font-weight-light text-muted" for="upload" id="upload-label">Choose file</label>
+                    <div class="input-group-append">
+                        <label class="btn btn-light m-0 rounded-pill px-4" for="upload"> <i
+                                class="fa fa-cloud-upload mr-2 text-muted"></i><small
+                                class="text-uppercase font-weight-bold text-muted">Choose file</small></label>
+                    </div>
+                </div>
+ 
+ 
+                <!-- Uploaded image area-->
+                <p class="font-italic text-white text-center">The image uploaded will be rendered inside the box
+                    below.</p>
+                <div class="image-area mt-4"><img alt="" class="img-fluid rounded shadow-sm mx-auto d-block"
+                                                  id="imageResult" name="imageResult"
+                                                  src="#"></div>
+ 
+                <!-- Submit button-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <input class="btn btn-primary my-3" type="submit"/>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+	
+	<style>
+					#upload {
+				opacity: 0;
+			}
+			
+			#upload-label {
+				position: absolute;
+				top: 50%;
+				left: 1rem;
+				transform: translateY(-50%);
+			}
+			
+			.image-area {
+				border: 2px dashed rgba(255, 255, 255, 0.7);
+				padding: 4rem;
+				position: relative;
+			}
+			
+			.image-area::before {
+				content: 'Image Preview';
+				color: #fff;
+				font-weight: bold;
+				text-transform: uppercase;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				font-size: 0.8rem;
+				z-index: 1;
+			}
+			
+			
+			.image-area img {
+				z-index: 2;
+				position: relative;
+			}
+			
+			
+			body {
+				min-height: 100vh;
+				background-color: #757f9a;
+				background-image: linear-gradient(147deg, #283290 0%, #283290 100%);
+			}
+	</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script>
+		/*  ==========================================
+			SHOW UPLOADED IMAGE
+		* ========================================== */
+		function readURL(input) {
+			if (input.files && input.files[0]) {
+				var reader = new FileReader();
+
+				reader.onload = function (e) {
+					$('#imageResult').attr('src', e.target.result);
+				};
+				reader.readAsDataURL(input.files[0]);
+			}
+		}
+
+		$(document).ready(function () {
+			$('#upload').on('change', function () {
+				readURL(this);
+			});
+		});
+
+		/*  ==========================================
+			SHOW UPLOADED IMAGE NAME
+		* ========================================== */
+		var input = document.getElementById('upload');
+		var infoArea = document.getElementById('upload-label');
+
+		input.addEventListener('change', showFileName);
+		function showFileName(event) {
+			var input = event.srcElement;
+			var fileName = input.files[0].name;
+			infoArea.textContent = 'File name: ' + fileName;
+		}
+	</script>
+	
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="footer_container">
+			<div class="container">
+				<div class="row">
+					
+					<!-- Footer - About -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_about">
+							<div class="footer_logo_container">
+								<a href="#" class="d-flex flex-column align-items-center justify-content-center">
+									<div class="logo_content">
+										<div class="logo d-flex flex-row align-items-center justify-content-center">
+											<div class="logo_text">Mind<span>Sync</span></div>
+											<div class="logo_box">+</div>
+										</div>
+										<div class="logo_sub">Health Care Center</div>
+									</div>
+								</a>
+							</div>
+							<div class="footer_about_text">
+								<p>"Healthcare is not a privilege; it's a right. It's a right as fundamental as civil rights. It's a right as fundamental as giving every child a chance to get a public education." <strong>- Rod Blagojevich</strong></p>
+							</div>
+							<ul class="footer_about_list">
+								<li><div class="footer_about_icon"><img src="static/images/phone-call.svg" alt=""></div><span>+45 677 8993000 223</span></li>
+								<li><div class="footer_about_icon"><img src="static/images/envelope.svg" alt=""></div><span>support@mindsyncplus.com</span></li>
+								<li><div class="footer_about_icon"><img src="static/images/placeholder.svg" alt=""></div><span>Vellore Institue Of Technology, Chennai</span></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Footer - News -->
+					<!-- Footer - Links -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_links footer_column">
+							<div class="footer_title"></div>
+						</div>
+					</div>
+
+					<!-- Footer - News -->
+					<div class="col-lg-4 footer_col">
+						<div class="footer_news footer_column">
+							<div class="footer_title">Useful Links</div>
+							<ul>
+								<li>
+									<div class="footer_news_title"><a href="https://nimhans.ac.in/cognitive-disorders-clinic/">National Institute of Mental Health and Neuro-Sciences</a></div>
+									<div class="footer_news_date">March 13, 2023</div>
+								</li>
+								<li>
+									<div class="footer_news_title"><a href="https://www.who.int/">World Health Organisation</a></div>
+									<div class="footer_news_date">Jan 31, 2021</div>
+								</li>
+								<li>
+									<div class="footer_news_title"><a href="https://www.apa.org/topics/aging-older-adults/living-dementia#:~:text=Living%20well%20with%20dementia%201%20Remember%20that%20people,memory%20tools.%20...%205%20Emphasize%20remaining%20strengths.%20">Living well with dementia by American Psychological Associations</a></div>
+									<div class="footer_news_date">Aug 15, 2022</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start">
+							<div class="cr"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by <strong>MindSync+</strong></a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+							<div class="footer_social ml-lg-auto">
+								<ul>
+									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</footer>
+</div>
+
+<script src="static/js/jquery-3.2.1.min.js"></script>
+<script src="static/styles/bootstrap4/popper.js"></script>
+<script src="static/styles/bootstrap4/bootstrap.min.js"></script>
+<script src="static/plugins/greensock/TweenMax.min.js"></script>
+<script src="static/plugins/greensock/TimelineMax.min.js"></script>
+<script src="static/plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="static/plugins/greensock/animation.gsap.min.js"></script>
+<script src="static/plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="static/plugins/progressbar/progressbar.min.js"></script>
+<script src="static/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="static/plugins/easing/easing.js"></script>
+<script src="static/plugins/parallax-js-master/parallax.min.js"></script>
+<script src="static/js/about.js"></script>
+</body>
+</html>
